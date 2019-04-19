@@ -1,0 +1,7 @@
+.idea
+node_modules
+.sass-cache
+*.thumb
+*.log
+dist
+.cache/

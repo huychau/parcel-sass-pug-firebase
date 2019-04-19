@@ -1,0 +1,13 @@
+body {
+  font-size: 14px;
+  background-color: $main-background;
+}
+
+// Style for header
+.main-header {
+  width: 50%;
+
+  &-content {
+    height: 100px;
+  }
+}

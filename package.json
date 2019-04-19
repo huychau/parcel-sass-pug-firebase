@@ -1,0 +1,26 @@
+{
+  "name": "parcel-sass-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist/ && parcel src/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/huy-chau/parcel-sass-pug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/huy-chau/parcel-sass-pug/issues"
+  },
+  "homepage": "https://gitlab.com/huy-chau/parcel-sass-pug#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "pug": "^2.0.3",
+    "sass": "^1.19.0"
+  }
+}
