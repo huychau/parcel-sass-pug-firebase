@@ -16,7 +16,8 @@ npm install -g parcel-bundler
 git clone git@gitlab.com:huy-chau/parcel-sass-pug.git
 ```
 
-You should rename `parcel-sass-pug` to your example, practice name. Ex `practice-2`.
+- You should rename `parcel-sass-pug` to your example, practice name. Ex `practice-2`.
+- You can update `styles`, `templates` structures apply what did you learn.
 
 ### Install packages
 
