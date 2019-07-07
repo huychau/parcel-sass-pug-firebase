@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf dist/ && parcel src/index.pug",
+    "start": "rm -rf dist/ && parcel src/*.pug --no-cache --no-source-maps",
+    "build": "rm -rf public/ && parcel build src/*.pug --no-cache --no-source-maps  --no-minify --experimental-scope-hoisting --out-dir public",
+    "deploy": "npm run-script build && firebase deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +24,9 @@
     "cssnano": "^4.1.10",
     "pug": "^2.0.3",
     "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0"
   }
 }

@@ -4,4 +4,6 @@ node_modules
 *.thumb
 *.log
 dist
+public
+.firebase/
 .cache/
