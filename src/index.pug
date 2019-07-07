@@ -7,7 +7,25 @@ html(lang="")
     include templates/header
 
     section.main-content
-      h2 This is index pages
+      .container
+        h2 This is index pages
+
+    <pre id="object"></pre>
 
     include templates/footer
 
+    //- jQuery
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+
+    //- Firebase App (the core Firebase SDK) is always required and must be listed first
+    script(src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js")
+
+    //- Add Firebase products that you want to use
+    script(src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js")
+    script(src="https://www.gstatic.com/firebasejs/6.2.4/firebase-database.js")
+
+    //- Bootstrap script
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js")
+
+    //- Scripts
+    script(src="scripts/pages/home.js")
