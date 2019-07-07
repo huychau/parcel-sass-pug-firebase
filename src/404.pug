@@ -1,0 +1,30 @@
+doctype html
+html(lang="")
+  head
+    // ...
+    link(rel="stylesheet", href="styles/main.scss")
+  body
+
+    section.main-content
+      .container
+        h2 404! Page Not Found!
+        p
+          a(href="/") Back to home page.
+
+    <pre id="object"></pre>
+
+    //- jQuery
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+
+    //- Firebase App (the core Firebase SDK) is always required and must be listed first
+    script(src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js")
+
+    //- Add Firebase products that you want to use
+    script(src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js")
+    script(src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js")
+
+    //- Bootstrap script
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js")
+
+    //- Scripts
+    script(src="scripts/pages/404.js")
