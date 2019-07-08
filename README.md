@@ -13,10 +13,10 @@ npm install -g parcel-bundler
 
 ### Clone this repo
 ```
-git clone git@gitlab.com:huy-chau/parcel-sass-pug.git
+git clone git@gitlab.com:huy-chau/parcel-sass-pug-firebase.git
 ```
 
-- You should rename `parcel-sass-pug` to your example, practice name. Ex `practice-2`.
+- You should rename `parcel-sass-pug-firebase` to your example, practice name. Ex `practice-2`.
 - You can update `styles`, `templates` structures apply what did you learn.
 - Update your Firbase configs in `src/scripts/components/firebase.js` (Ignore `dotenv` for now)
 
@@ -40,6 +40,7 @@ npm run-scripts build
 ```
 
 ### Deploy to Firebase
+
 #### Setup (one time)
 - Install Firebase CLI `npm install -g firebase-tools`
 - Update `.firbaserc` to your configs
