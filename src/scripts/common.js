@@ -5,7 +5,7 @@
 import FirbaseComponent from './components/firebase.js';
 
 const Common = {
-  init: function () {
+  init() {
     FirbaseComponent.init();
   }
 };
