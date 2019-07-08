@@ -13,7 +13,7 @@ npm install -g parcel-bundler
 
 ### Clone this repo
 ```
-git clone git@gitlab.com:huy-chau/parcel-sass-pug-firebase.git
+git clone git@github.com:huychau/parcel-sass-pug-firebase.git
 ```
 
 - You can update `styles`, `templates`, `scripts` structures follow your patterns.
@@ -44,7 +44,7 @@ npm run-scripts build
 - Install Firebase CLI `npm install -g firebase-tools`
 - Update `.firbaserc` to your configs
 - Login  Firebase `firebase login`
-- Init firebase `firebase init` (No need this step)
+- Init firebase `firebase init` (No need this step if you not sure about initialing)
 - Choose project `firebase use <project-id>`
 
 #### Deploy
