@@ -35,7 +35,7 @@ Open on web: http://localhost:1234/index.html
 
 ### Build
 ```
-npm run-scripts build
+npm run-script build
 ```
 
 ### Deploy to Firebase
@@ -49,7 +49,7 @@ npm run-scripts build
 
 #### Deploy
 ```
-npm run-scripts deploy
+npm run-script deploy
 ```
 
 Open on web: https://parcel-sass-pug-firebase.firebaseapp.com
