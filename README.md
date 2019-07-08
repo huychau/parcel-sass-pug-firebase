@@ -32,7 +32,7 @@ npm install
 npm start
 ```
 
-Open on web: http://localhost:1234
+Open on web: http://localhost:1234/index.html
 
 ### Build
 ```
