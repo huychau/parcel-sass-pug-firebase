@@ -1,16 +1,18 @@
-
+/**
+ * Firebase Component
+ */
 const FirebaseComponent = {
   init() {
     // Set the configuration for your app
     // TODO: Replace with your project's config object
     var firebaseConfig = {
-      apiKey: "AIzaSyCSAnwAwb74Q9BFYFAhneKn2uKF_jsd3OY",
-      authDomain: "parcel-sass-pug-firebase.firebaseapp.com",
-      databaseURL: "https://parcel-sass-pug-firebase.firebaseio.com",
-      projectId: "parcel-sass-pug-firebase",
-      storageBucket: "",
-      messagingSenderId: "10997895787",
-      appId: "1:10997895787:web:07e18707d478ccdf"
+      apiKey: process.env.API_KEY,
+      authDomain: process.env.AUTH_DOMAIN,
+      databaseURL: process.env.DATABASE_URL,
+      projectId: process.env.PROJECT_ID,
+      storageBucket: process.env.STORAGE_BUCKET,
+      messagingSenderId: process.env.MESSAGING_SENDER_ID,
+      appId: process.env.APP_ID,
     };
 
     // Initialize Firebase
