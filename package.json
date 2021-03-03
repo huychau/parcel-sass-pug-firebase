@@ -22,7 +22,7 @@
   "homepage": "https://gitlab.com/huy-chau/parcel-sass-pug#readme",
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "sass": "^1.19.0"
   },
   "dependencies": {
